@@ -14,81 +14,87 @@
           <div class="header__logo">
             <a href="#" class="logo">Heronwater</a>
           </div>
-          <div class="header__menu">
-            <ul class="menu__items">
-              <li class="menu__item">
-                <a href="#" class="menu__item-link">about </a>
-              </li>
-              <li class="menu__item">
-                <a href="#" class="menu__item-link"> music</a>
-              </li>
-              <li class="menu__item">
-                <a href="#" class="menu__item-link"> contacts</a>
-              </li>
-            </ul>
-          </div>
+          <ul class="menu__items">
+            <li class="menu__item">
+              <a href="#music" class="menu__item-link">Tracks</a>
+            </li>
+            <li class="menu__item">
+              <a href="#citation" class="menu__item-link">Citation</a>
+            </li>
+            <li class="menu__item">
+              <a href="#contacts" class="menu__item-link">Contacts</a>
+            </li>
+          </ul>
         </div>
 
-        <div class="header__title">
-          <div class="header__info">
-            <h1 class="info__title">the site is for Heronwater</h1>
-            <p class="info__text">
+        <section class="header__information">
+          <div class="information__content">
+            <h1 class="information__title">Heronwater is a Russian performer</h1>
+            <p class="information__paragraph">
               Heronwater (Arseniy Gruzdev, born October 17) is a Russian performer, beatmaker and sound
               engineer from Kostroma. He began his career in 2017. He became widely known as an artist after
               the release of 2 DAYS NO LEAN.
             </p>
-            <a href="https://genius.com/artists/Heronwater" target="_blank" class="info-btn">Genius</a>
+            <a href="https://genius.com/artists/Heronwater" target="_blank" class="btn__genius">Genius</a>
           </div>
-          <div class="header__images">
-            <img class="images" src="images/main.jpg" alt="atrist heronwater" />
+          <div class="information__images">
+            <img class="header__images" src="images/main.jpg" alt="atrist heronwater" />
           </div>
-        </div>
+        </section>
       </div>
     </header>
-    <section class="music__tracks">
+
+    <section class="music__tracks" id="music">
       <div class="wrapper">
         <h2 class="music__title">Heronwaters Best Tracks</h2>
+
         <div class="music__cards">
           <div class="card__item">
             <img src="images/tracks/hyperpop.jpg" alt="hyperpop" />
-            <h4 class="name__track">Heronwater - Хайперпоп</h4>
+            <a class="name__track" href="https://genius.com/Heronwater-hyperpop-lyrics" target="_blank"
+              >Heronwater - Хайперпоп</a
+            >
           </div>
           <div class="card__item">
             <img src="images/tracks/odarivaet.jpg" alt="odarivaet" />
-            <h4 class="name__track">Heronwater - Одаривает</h4>
+            <a class="name__track" href="https://genius.com/Heronwater-bestows-lyrics" target="_blank"
+              >Heronwater - Одаривает</a
+            >
           </div>
           <div class="card__item">
             <img src="images/tracks/2033.jpg" alt="2033" />
-            <h4 class="name__track">Heronwater - 2033</h4>
+            <a class="name__track" href="https://genius.com/Heronwater-2033-lyrics" target="_blank"
+              >Heronwater - 2033</a
+            >
           </div>
           <div class="card__item">
             <img src="images/tracks/vminore.jpg" alt="vminore" />
-            <h4 class="name__track">Heronwater - В миноре</h4>
+            <a class="name__track" href="https://genius.com/Heronwater-in-minor-lyrics" target="_blank"
+              >Heronwater - В миноре</a
+            >
           </div>
         </div>
       </div>
     </section>
 
-    <section class="concert">
+    <section class="citation" id="citation">
       <div class="wrapper">
-        <div class="concert__list">
-          <p class="concert__info">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, labore officia? Id
-            cupiditate est natus, iste voluptatum quo quae doloribus vel asperiores a neque voluptatem
-            recusandae consequuntur maxime numquam impedit beatae adipisci, praesentium aspernatur eius! Quis
-            odit, atque accusamus odio rerum natus in eos dolor, laboriosam iusto soluta sapiente possimus!
+        <div class="citation__list">
+          <p class="citation__info">
+            I ran over Oppa with a car right in the club to Disco Crash. I remember seeing space in your eyes
+            - I don't envy Gagarin anymore.
           </p>
         </div>
-        <div class="name__concert-list">- Heronwater</div>
+        <div class="name__citation">- Heronwater</div>
       </div>
     </section>
 
-    <section class="login">
+    <section class="contact" id="contacts">
       <div class="container">
-        <div class="login__container">
-          <div class="login__name">
-            <h3 class="login__title">Call to action! it's time!</h3>
-            <p class="login__info">Sign up for our product by clicking that button rigth over there!</p>
+        <div class="contact__container">
+          <div class="contact__information">
+            <h3 class="contact__title">Call to action! it's time!</h3>
+            <p class="contact__box">Sign up for our product by clicking that button rigth over there!</p>
           </div>
           <div class="login__button">
             <button class="btn">Sign up</button>
