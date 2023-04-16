@@ -8,7 +8,7 @@ simple one-page site, to consolidate the practice of working with **classes html
 - CSS (flexbox)
 - Git 
 
-##### [View the site]()
+##### [View the site](https://mershana.github.io/Project-Landing-Page/)
 
 ---
 
