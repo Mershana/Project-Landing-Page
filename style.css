@@ -13,8 +13,10 @@ body {
   font-size: 18px;
   font-weight: 300;
   background-color: #fff;
+  color: #f9faf8;
 }
 
+/* containers */
 .container {
   max-width: 1060px;
   margin: 0 auto;
@@ -26,6 +28,7 @@ body {
   margin: 0 auto;
 }
 
+/* nav header */
 .header {
   height: 30rem;
   background-color: #1f2937;
@@ -43,19 +46,15 @@ body {
   align-items: center;
 }
 
-.header__logo a {
+.header__logo .logo {
   font-size: 24px;
   color: #f9faf8;
   font-weight: bold;
 }
 
-.header__logo a:hover {
+.header__logo .logo:hover {
   text-decoration: underline;
   transition: 0.3s ease-in;
-}
-
-.header__menu {
-  display: flex;
 }
 
 .menu__items {
@@ -78,45 +77,36 @@ body {
 
 /* header content */
 
-.images {
+.header__images {
   width: 500px;
   height: 250px;
-  border-radius: 20px;
-  -webkit-transition: -webkit-transform 0.7s ease-in-out;
-  transition: transform 0.7s ease-in-out;
 }
 
-.images:hover{
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg) scale(0.7);
-}
-
-.header__title {
+.header__information {
   display: flex;
   font-weight: 700;
 }
 
-.header__info {
+.information__content {
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
 }
 
-.info__title {
-  width: 270px;
+.information__title {
+  width: 305px;
   font-size: 36px;
   font-weight: bold;
-  color: #e5e7eb;
 }
 
-.info__text {
+.information__paragraph {
   margin-right: 30px;
   font-weight: 300;
-  color: #f9faf8;
+  font-style: italic;
 }
 
-.info-btn {
+.btn__genius {
   background-color: #3882f6;
   border: none;
   color: #e5e7eb;
@@ -124,6 +114,12 @@ body {
   font-size: 20px;
   border-radius: 10px;
   font-weight: bold;
+  transition: 0.3s all ease-in;
+}
+
+.btn__genius:hover {
+  background-color: #f9faf8;
+  color: #3882f6;
 }
 
 /* music best tracks */
@@ -139,6 +135,7 @@ body {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 40px;
+  color: #1f2937;
 }
 
 .music__cards {
@@ -146,60 +143,65 @@ body {
   justify-content: space-between;
 }
 .card__item img {
+  cursor: pointer;
   width: 200px;
   height: 200px;
   border: 3px solid #3882f6;
   border-radius: 20px;
   -webkit-transition: -webkit-transform 0.7s ease-in-out;
-  transition: transform 0.7s ease-in-out;
+  transition: transform 0.9s ease-in-out;
+  margin-bottom: 10px;
 }
 
 .card__item img:hover {
   -webkit-transform: rotate(360deg);
-  transform: rotate(360deg) scale(1.7);
+  transform: rotate(360deg) scale(1.5);
 }
 
 .name__track {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  color: #1f2937;
   font-weight: 300;
   font-size: 18px;
 }
 
 /* concert list*/
 
-.concert {
+.citation {
   background-color: #e5e7eb;
   padding: 100px 0 100px 0;
 }
 
-.concert__list {
+.citation__list {
   display: flex;
   justify-content: center;
 }
 
-.concert__info {
-  width: 1000px;
+.citation__info {
+  width: 830px;
   font-style: italic;
   font-size: 34px;
+  color: #1f2937;
 }
 
-.name__concert-list {
+.name__citation {
   display: flex;
   justify-content: end;
-}
-
-.name__concert-list {
   font-size: 24px;
   font-weight: bold;
+  color: #1f2937;
 }
 
-.login {
+/* login */
+
+.contact {
   padding: 100px 0 100px 0;
 }
 
-.login__container {
+.contact__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -209,19 +211,18 @@ body {
   border-radius: 20px;
 }
 
-.login__title {
+.contact__title {
   font-size: 24px;
   font-weight: bold;
-  color: #f9faf8;
 }
 
-.login__info {
+.contact__box {
   font-size: 18px;
-  color: #f9faf8;
   font-weight: 300;
 }
 
 .btn {
+  cursor: pointer;
   background-color: #3882f6;
   border: 2px solid #fff;
   color: #e5e7eb;
@@ -229,7 +230,15 @@ body {
   font-size: 20px;
   border-radius: 10px;
   font-weight: bold;
+  transition: 0.3s all ease-in-out;
 }
+
+.btn:hover {
+  background-color: #f9faf8;
+  color: #3882f6;
+}
+
+/* footer styles */
 
 .footer {
   background-color: #1f2937;
@@ -242,10 +251,10 @@ body {
 .footer__title {
   font-size: 18px;
   font-weight: 300;
-  color: #f9faf8;
+  color: #e5e7eb;
 }
 
 .footer__title a {
-  color: #f9faf8;
+  color: #e5e7eb;
   text-decoration: underline;
 }
